@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MyCalcLib;
-
+//Simple example for Harvard students on course Computer Science
 namespace UnitTestMyCalc
 {
     [TestClass]
