@@ -14,11 +14,14 @@ namespace UnitTestMyCalc
             int x = 20;
             int y = 30;
             int expected = 50;
+            
             //act
             MyCalc c = new MyCalc();
             int actual = c.Sum(x, y);
+            
             //asset
             Assert.AreEqual(expected, actual);
+            
         }
     }
 }
