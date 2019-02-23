@@ -37,7 +37,7 @@ namespace App.Tests
         public void TestCreditCase()
         {
             BankAccount bank = new BankAccount("Vera", 2);
-            bank.Credit(2);
+            bank.Credit(0);
             Assert.AreEqual(0, bank.Balance);
         }
 
