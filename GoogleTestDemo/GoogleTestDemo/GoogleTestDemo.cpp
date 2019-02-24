@@ -1,11 +1,11 @@
 ﻿#include "pch.h"
 #include <iostream>
-// simple test example for students
+// simple test example
 
 #include <gtest/gtest.h>
 struct  BankAccount
 {
-	int balance;
+	int balance = 0;
 	BankAccount()
 	{
 	}
