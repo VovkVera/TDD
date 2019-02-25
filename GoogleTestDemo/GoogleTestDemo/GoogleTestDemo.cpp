@@ -5,7 +5,7 @@
 #include <gtest/gtest.h>
 struct  BankAccount
 {
-	int balance;
+	int balance=0;
 	BankAccount()
 	{
 	}
