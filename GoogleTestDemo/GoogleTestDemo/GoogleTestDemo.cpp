@@ -5,7 +5,6 @@
 #include <gtest/gtest.h>
 struct  BankAccount
 {
-<<<<<<< HEAD
 	int balance=0;
 	
 	BankAccount()
